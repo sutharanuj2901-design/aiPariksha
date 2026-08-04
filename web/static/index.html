@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIPariksha — AI-first exam preparation</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<!-- ========================= AUTH (login / register) ========================= -->
+<div id="view-auth" class="auth-wrap">
+  <div class="auth-brand">
+    <div class="brand">
+      <span class="brand-mark">AI</span>
+      <div>
+        <h1>AIPariksha</h1>
+        <p class="brand-sub">AI-first examination platform</p>
+      </div>
+    </div>
+    <h2 class="auth-pitch">Realistic mock tests. Honest evaluation.</h2>
+    <ul class="auth-points">
+      <li><b>18 exams</b> — NEET, JEE, CUET, SSC, Banking, Railway, Haryana CET</li>
+      <li><b>7 generators</b> — full mock, chapter, topic, revision, previous-year pattern, sectional, adaptive</li>
+      <li><b>Real marking</b> — official section-wise schemes and negative marking</li>
+      <li><b>Diagnostics</b> — weak areas with reasons, not just scores</li>
+    </ul>
+    <p class="auth-foot">Estimates here are internal, never official ranks or cut-offs.</p>
+  </div>
+
+  <div class="auth-card">
+    <div class="tabs">
+      <button class="tab is-active" data-auth="login" type="button">Sign in</button>
+      <button class="tab" data-auth="register" type="button">Create account</button>
+    </div>
+
+    <form id="loginForm" class="auth-form">
+      <div class="field">
+        <label for="loginEmail">Email</label>
+        <input id="loginEmail" type="email" autocomplete="email" required>
+      </div>
+      <div class="field">
+        <label for="loginPassword">Password</label>
+        <input id="loginPassword" type="password" autocomplete="current-password" required>
+      </div>
+      <button class="btn btn-primary btn-block" type="submit">Sign in</button>
+      <p id="loginError" class="status is-error" role="alert"></p>
+    </form>
+
+    <form id="registerForm" class="auth-form" hidden>
+      <div class="field">
+        <label for="regName">Name</label>
+        <input id="regName" type="text" autocomplete="name" required>
+      </div>
+      <div class="field">
+        <label for="regEmail">Email</label>
+        <input id="regEmail" type="email" autocomplete="email" required>
+      </div>
+      <div class="field">
+        <label for="regPassword">Password <span class="muted">— at least 8 characters</span></label>
+        <input id="regPassword" type="password" autocomplete="new-password" minlength="8" required>
+      </div>
+      <div class="field">
+        <label for="regExam">Target exam</label>
+        <select id="regExam"></select>
+      </div>
+      <button class="btn btn-primary btn-block" type="submit">Create account</button>
+      <p id="registerError" class="status is-error" role="alert"></p>
+    </form>
+
+    <p class="auth-note">
+      Local accounts stored on this machine. Passwords are hashed with scrypt — but this
+      is a local dev build, not hardened production auth.
+    </p>
+  </div>
+</div>
+
+<!-- ============================== APP SHELL ============================== -->
+<div id="app" hidden>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">AI</span>
+    <div>
+      <h1>AIPariksha</h1>
+      <p class="brand-sub" id="userLine"></p>
+    </div>
+  </div>
+  <div class="topbar-right">
+    <span id="engineBadge" class="badge badge-muted">…</span>
+    <button id="navDash" class="btn btn-ghost" type="button">Dashboard</button>
+    <button id="navProgress" class="btn btn-ghost" type="button">Progress</button>
+    <button id="themeToggle" class="btn btn-ghost" type="button">Dark</button>
+    <button id="btnLogout" class="btn btn-ghost" type="button">Sign out</button>
+  </div>
+</header>
+
+<div id="banner" class="banner" hidden></div>
+
+<!-- --------------------------- 1. EXAM + MODE --------------------------- -->
+<main id="view-dash" class="view">
+  <section class="card">
+    <h2>Step 1 — Choose your exam</h2>
+    <p class="hint">Your target exam is pre-selected. Change it any time.</p>
+    <div class="field field-wide">
+      <label for="exam">Exam</label>
+      <select id="exam"></select>
+    </div>
+    <div id="patternStrip" class="pattern-strip"></div>
+  </section>
+
+  <h2 class="section-title">Step 2 — Pick a generator</h2>
+  <p class="hint">Each mode asks for different inputs. A full mock covers the whole official pattern and takes no subject or topic selection at all.</p>
+  <div id="modeGrid" class="mode-grid"></div>
+</main>
+
+<!-- ----------------------------- 2. OPTIONS ----------------------------- -->
+<main id="view-options" class="view" hidden>
+  <button class="btn btn-ghost btn-back" id="btnBackToModes" type="button">&larr; Back to generators</button>
+
+  <div class="setup-grid">
+    <section class="card">
+      <h2 id="optionsTitle"></h2>
+      <p id="optionsBlurb" class="hint"></p>
+
+      <div id="scopeBlock">
+        <div class="field" id="subjectField">
+          <label>Subject <span class="req">required</span></label>
+          <div id="subjects" class="chipset"></div>
+        </div>
+
+        <div class="field" id="chapterField">
+          <label for="chapterSearch">Chapter(s) <span class="req">required</span></label>
+          <input id="chapterSearch" type="search" placeholder="Filter chapters…" autocomplete="off">
+          <div id="chapters" class="checklist"></div>
+          <p class="tiny" id="chapterCount"></p>
+        </div>
+
+        <div class="field" id="topicField">
+          <label>Topic <span class="req">required</span></label>
+          <div id="topics" class="checklist checklist-sm"></div>
+        </div>
+      </div>
+
+      <div id="fullSyllabusBlock" class="notice" hidden>
+        <strong>Full official pattern</strong>
+        <span id="fullSyllabusText"></span>
+      </div>
+
+      <div class="field" id="yearField" hidden>
+        <label for="referenceYears">Reference year(s) <span class="req">required</span></label>
+        <input id="referenceYears" type="text" placeholder="e.g. 2023 or 2022, 2023" autocomplete="off">
+        <p class="tiny">New questions in that year's style and difficulty — never copies of real past questions.</p>
+      </div>
+
+      <div class="field-row" id="adaptiveFields" hidden>
+        <div class="field">
+          <label for="startingDifficulty">Starting difficulty <span class="req">required</span></label>
+          <select id="startingDifficulty">
+            <option value="Easy">Easy</option>
+            <option value="Medium" selected>Medium</option>
+            <option value="Hard">Hard</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="adaptiveLength">Length</label>
+          <select id="adaptiveLength">
+            <option value="10">10 questions</option>
+            <option value="20" selected>20 questions</option>
+            <option value="30">30 questions</option>
+            <option value="stable">Until stable estimate</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field" id="countField">
+          <label for="numQuestions">Questions <span class="req" id="countReq">required</span></label>
+          <input id="numQuestions" type="number" min="1" max="300">
+        </div>
+        <div class="field">
+          <label for="timeLimit">Minutes <span class="muted">auto</span></label>
+          <input id="timeLimit" type="number" min="1">
+        </div>
+        <div class="field">
+          <label for="difficulty">Difficulty <span class="muted">optional</span></label>
+          <select id="difficulty">
+            <option value="">Exam-realistic mix</option>
+            <option value="Easy">Easy</option>
+            <option value="Medium">Medium</option>
+            <option value="Hard">Hard</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="language">Language</label>
+          <select id="language"></select>
+        </div>
+        <div class="field">
+          <label for="solutions">Solutions</label>
+          <select id="solutions">
+            <option value="">Mode default</option>
+            <option value="Detailed">Detailed</option>
+            <option value="Brief">Brief</option>
+            <option value="Answer Key">Answer key only</option>
+            <option value="None">None</option>
+          </select>
+        </div>
+        <div class="field field-check">
+          <label class="switch">
+            <input id="negativeMarking" type="checkbox" checked>
+            <span>Negative marking</span>
+          </label>
+        </div>
+      </div>
+
+      <details class="disclose">
+        <summary>Advanced overrides</summary>
+        <div class="field" style="margin-top:12px">
+          <label>Difficulty distribution <span class="muted">optional — must total 100</span></label>
+          <div class="field-row">
+            <input id="distEasy" type="number" min="0" max="100" placeholder="Easy %">
+            <input id="distMedium" type="number" min="0" max="100" placeholder="Medium %">
+            <input id="distHard" type="number" min="0" max="100" placeholder="Hard %">
+          </div>
+        </div>
+        <div class="field" id="weightageField">
+          <label>Subject weightage <span class="muted">optional — overrides official proportions</span></label>
+          <div id="weightage" class="weight-grid"></div>
+        </div>
+        <div class="field">
+          <label for="seed">Seed <span class="muted">optional — same seed gives the same paper</span></label>
+          <input id="seed" type="number" min="1">
+        </div>
+        <div class="field">
+          <label for="customInstructions">Custom instructions</label>
+          <textarea id="customInstructions" rows="2" placeholder="e.g. keep calculations light"></textarea>
+        </div>
+      </details>
+
+      <div class="actions">
+        <button id="btnPreview" class="btn btn-secondary" type="button">Preview blueprint</button>
+        <button id="btnGenerate" class="btn btn-primary" type="button">Generate &amp; start</button>
+      </div>
+      <p id="setupStatus" class="status" role="status" aria-live="polite"></p>
+    </section>
+
+    <div class="setup-side">
+      <section class="card card-tight">
+        <h3>Official pattern</h3>
+        <div id="patternBody" class="pattern-body"></div>
+      </section>
+      <section id="previewCard" class="card card-tight" hidden>
+        <h3>Planned composition</h3>
+        <div id="previewBody"></div>
+      </section>
+    </div>
+  </div>
+</main>
+
+<!-- ------------------------------- 3. TEST ------------------------------- -->
+<main id="view-test" class="view" hidden>
+  <div class="exam-bar">
+    <div>
+      <h2 id="testTitle"></h2>
+      <p id="testMeta" class="muted"></p>
+      <p id="coverageLine" class="coverage"></p>
+    </div>
+    <div class="exam-bar-right">
+      <div id="adaptiveChip" class="adaptive-chip" hidden></div>
+      <div class="timer" id="timer" role="timer">--:--</div>
+      <button id="btnSubmit" class="btn btn-primary" type="button">Submit test</button>
+    </div>
+  </div>
+
+  <div class="test-grid">
+    <section class="card question-card">
+      <div id="questionHead" class="question-head"></div>
+      <div id="questionBody"></div>
+      <div class="question-actions">
+        <button id="btnClear" class="btn btn-ghost" type="button">Clear</button>
+        <button id="btnMark" class="btn btn-ghost" type="button">Mark for review</button>
+        <span class="spacer"></span>
+        <button id="btnPrev" class="btn btn-secondary" type="button">Previous</button>
+        <button id="btnNext" class="btn btn-primary" type="button">Next</button>
+      </div>
+    </section>
+
+    <aside class="card card-tight">
+      <h3 id="paletteTitle">Question palette</h3>
+      <div id="palette" class="palette"></div>
+      <ul class="legend legend-stack">
+        <li><span class="dot dot-answered"></span> Answered</li>
+        <li><span class="dot dot-marked"></span> Marked for review</li>
+        <li><span class="dot dot-seen"></span> Seen, not answered</li>
+        <li><span class="dot dot-untouched"></span> Not visited</li>
+      </ul>
+      <div id="progressSummary" class="progress-summary"></div>
+    </aside>
+  </div>
+</main>
+
+<!-- ------------------------------ 4. REPORT ------------------------------ -->
+<main id="view-report" class="view" hidden>
+  <div id="reportBody"></div>
+</main>
+
+<!-- ----------------------------- 5. PROGRESS ----------------------------- -->
+<main id="view-progress" class="view" hidden>
+  <div id="progressBody"></div>
+</main>
+
+</div><!-- /app -->
+
+<div id="overlay" class="overlay" hidden>
+  <div class="overlay-card">
+    <div class="spinner" aria-hidden="true"></div>
+    <p id="overlayText">Working…</p>
+  </div>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
