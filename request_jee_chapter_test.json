@@ -1,0 +1,12 @@
+{
+  "exam": "JEE Main",
+  "test_type": "Chapter Wise",
+  "subjects": ["Physics"],
+  "chapters": ["Kinematics", "Laws of Motion", "Work, Energy and Power"],
+  "difficulty": "Mixed",
+  "num_questions": 24,
+  "time_limit_minutes": 45,
+  "solutions": "Detailed",
+  "bloom_level": "Apply",
+  "seed": 11
+}

@@ -1,0 +1,21 @@
+{
+  "_comment": "Answers for a 15-question paper. 'selected' takes a single key, 'A,C' for multi-correct, or use 'value' for numerical questions. Omit a question entirely to leave it unattempted.",
+  "paper_id": "replace-with-the-generated-paper-id",
+  "student_id": "stu-4471",
+  "total_time_spent_seconds": 1080,
+  "responses": [
+    { "question_id": "Q1", "selected": "A", "time_spent_seconds": 42 },
+    { "question_id": "Q2", "selected": "C", "time_spent_seconds": 55 },
+    { "question_id": "Q3", "selected": "B", "time_spent_seconds": 71 },
+    { "question_id": "Q4", "selected": "D", "time_spent_seconds": 38 },
+    { "question_id": "Q5", "selected": "B", "time_spent_seconds": 120 },
+    { "question_id": "Q6", "selected": "A", "time_spent_seconds": 64 },
+    { "question_id": "Q7", "selected": "C", "time_spent_seconds": 49 },
+    { "question_id": "Q8", "selected": "C", "time_spent_seconds": 210, "marked_for_review": true },
+    { "question_id": "Q9", "selected": "D", "time_spent_seconds": 33 },
+    { "question_id": "Q10", "selected": "A", "time_spent_seconds": 58 },
+    { "question_id": "Q12", "selected": "B", "time_spent_seconds": 77 },
+    { "question_id": "Q13", "selected": "D", "time_spent_seconds": 41 },
+    { "question_id": "Q14", "selected": "A", "time_spent_seconds": 95 }
+  ]
+}

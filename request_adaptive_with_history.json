@@ -1,0 +1,61 @@
+{
+  "exam": "IBPS PO",
+  "test_type": "Adaptive",
+  "num_questions": 30,
+  "difficulty": "Mixed",
+  "solutions": "Detailed",
+  "seed": 91,
+  "student_history": {
+    "student_id": "stu-4471",
+    "attempts": [
+      {
+        "paper_id": "ibps-po-a1",
+        "exam": "IBPS PO",
+        "taken_on": "2026-07-12",
+        "score": 48,
+        "max_marks": 100,
+        "subject_stats": {
+          "English": { "attempted": 26, "correct": 20 },
+          "Quantitative Aptitude": { "attempted": 24, "correct": 9 },
+          "Reasoning": { "attempted": 30, "correct": 21 }
+        },
+        "chapter_stats": {
+          "Data Interpretation": { "attempted": 10, "correct": 3 },
+          "Time and Work": { "attempted": 6, "correct": 2 },
+          "Puzzles": { "attempted": 10, "correct": 5 },
+          "Reading Comprehension": { "attempted": 10, "correct": 8 },
+          "Syllogism": { "attempted": 6, "correct": 6 }
+        },
+        "difficulty_stats": {
+          "Easy": { "attempted": 34, "correct": 26 },
+          "Medium": { "attempted": 32, "correct": 18 },
+          "Hard": { "attempted": 14, "correct": 6 }
+        }
+      },
+      {
+        "paper_id": "ibps-po-a2",
+        "exam": "IBPS PO",
+        "taken_on": "2026-07-26",
+        "score": 55,
+        "max_marks": 100,
+        "subject_stats": {
+          "English": { "attempted": 27, "correct": 22 },
+          "Quantitative Aptitude": { "attempted": 26, "correct": 12 },
+          "Reasoning": { "attempted": 31, "correct": 23 }
+        },
+        "chapter_stats": {
+          "Data Interpretation": { "attempted": 12, "correct": 5 },
+          "Time and Work": { "attempted": 5, "correct": 2 },
+          "Puzzles": { "attempted": 12, "correct": 7 },
+          "Reading Comprehension": { "attempted": 11, "correct": 9 },
+          "Syllogism": { "attempted": 6, "correct": 5 }
+        },
+        "difficulty_stats": {
+          "Easy": { "attempted": 36, "correct": 30 },
+          "Medium": { "attempted": 34, "correct": 21 },
+          "Hard": { "attempted": 14, "correct": 6 }
+        }
+      }
+    ]
+  }
+}

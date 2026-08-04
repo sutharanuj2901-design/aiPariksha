@@ -1,0 +1,13 @@
+{
+  "exam": "NEET UG",
+  "pattern_version": "2025",
+  "test_type": "Full Mock",
+  "difficulty": "Mixed",
+  "num_questions": 180,
+  "time_limit_minutes": 180,
+  "language": "English",
+  "negative_marking": true,
+  "solutions": "Detailed",
+  "seed": 2025,
+  "custom_instructions": "Keep numerical work light enough to finish inside the per-question time budget."
+}

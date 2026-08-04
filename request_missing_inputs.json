@@ -1,0 +1,6 @@
+{
+  "_comment": "Demonstrates the clarification path: a chapter-wise test with no chapters and no question count. The engine asks instead of assuming. Run: python -m aipariksha preview examples/request_missing_inputs.json",
+  "exam": "NEET UG",
+  "test_type": "Chapter Wise",
+  "difficulty": "Medium"
+}

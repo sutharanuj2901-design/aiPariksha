@@ -1,0 +1,11 @@
+{
+  "exam": "SSC CGL",
+  "test_type": "Topic Wise",
+  "subjects": ["Quantitative Aptitude"],
+  "topics": ["Pipes and cisterns", "Boats and streams", "Successive discount"],
+  "difficulty": "Hard",
+  "num_questions": 15,
+  "time_limit_minutes": 20,
+  "solutions": "Detailed",
+  "seed": 4
+}
