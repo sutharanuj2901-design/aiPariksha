@@ -1,0 +1,8 @@
+# The core engine needs nothing beyond the Python standard library.
+# Generation, blueprinting, scoring, analytics and the CLI all run as-is.
+
+# Required only for model-backed question generation (set AIPARIKSHA_API_KEY too).
+anthropic>=0.40
+
+# Test suite.
+pytest>=8.0

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aipariksha"
+version = "1.0.0"
+description = "AI engine for an AI-first examination platform: paper generation, evaluation and analytics."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Proprietary" }
+
+# The core engine is stdlib-only on purpose: blueprinting, validation, scoring,
+# analytics and the CLI all run with no third-party packages installed.
+dependencies = []
+
+[project.optional-dependencies]
+# Needed only for model-backed generation.
+claude = ["anthropic>=0.40"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+aipariksha = "aipariksha.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["aipariksha*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]
+addopts = "-q"
+# The domain has a TestType enum; without this pytest tries to collect it.
+python_classes = "Test*Case"
