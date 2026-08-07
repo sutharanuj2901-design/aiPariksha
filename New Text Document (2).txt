@@ -1,0 +1,382 @@
+COMPLETE DOCUMENTATION
+OF ALL MAJOR INDIAN COMPETITIVE EXAMINATIONS
+CONSOLIDATED MASTER EDITION — ALL 8 PARTS IN ONE VOLUME
+Engineering & Medical  ·  Management  ·  Banking  ·  SSC  ·  Railway
+Defence  ·  State Government & Teaching  ·  Law & CUET
+A comprehensive reference covering exam pattern, complete syllabus, marking scheme,
+cutoffs, preparation strategy and study plans for 30+ Indian competitive examinations.
+Compiled: August 2026
+ 
+ 
+Master Table of Contents
+Note: This document uses Word's built-in Heading styles throughout. If viewing in Microsoft Word, insert/update a Table of Contents field for live page numbers and clickable navigation links.
+PART 1 — ENGINEERING & MEDICAL ENTRANCE EXAMS
+Chapter 1: JEE Main (Paper 1 – B.E./B.Tech)
+Chapter 2: JEE Main Paper 2A (B.Arch)
+Chapter 3: JEE Main Paper 2B (B.Planning)
+Chapter 4: JEE Advanced
+Chapter 5: NEET UG
+PART 2 — MANAGEMENT ENTRANCE EXAMS
+Chapter 1: CAT (Common Admission Test)
+Chapter 2: XAT (Xavier Aptitude Test)
+PART 3 — BANKING EXAMS
+Chapter 1: SBI PO
+Chapter 2: SBI Clerk
+Chapter 3: IBPS PO
+Chapter 4: IBPS Clerk
+Chapter 5: IBPS RRB PO
+Chapter 6: IBPS RRB Clerk
+Chapter 7: RBI Grade B
+Chapter 8: RBI Assistant
+PART 4 — SSC EXAMS
+Chapter 1: SSC CGL
+Chapter 2: SSC CHSL
+Chapter 3: SSC CPO
+Chapter 4: SSC GD Constable
+Chapter 5: SSC MTS & Havaldar
+Chapter 6: SSC JE
+Chapter 7: SSC Selection Post
+Chapter 8: SSC Stenographer
+Chapter 9: SSC JHT
+PART 5 — RAILWAY (RRB) EXAMS
+Chapter 1: RRB NTPC
+Chapter 2: RRB Group D
+Chapter 3: RRB JE
+Chapter 4: RRB ALP
+PART 6 — DEFENCE ENTRANCE EXAMS
+Chapter 1: NDA
+Chapter 2: CDS
+PART 7 — STATE GOVERNMENT & TEACHING EXAMS
+Chapter 1: Haryana CET
+Chapter 2: CTET
+PART 8 — LAW ENTRANCE & CUET
+Chapter 1: CLAT UG
+Chapter 2: CLAT PG
+Chapter 3: CUET UG
+ 
+ 
+PART 1
+ENGINEERING & MEDICAL
+ENTRANCE EXAMS
+JEE Main (Paper 1, 2A, 2B)  ·  JEE Advanced  ·  NEET UG
+ 
+Chapter 1: JEE Main (Paper 1 – B.E./B.Tech)
+1.1 Exam Overview
+Exam Name	Joint Entrance Examination – Main (JEE Main), Paper 1
+Full Form	Joint Entrance Examination Main
+Conducting Authority	National Testing Agency (NTA)
+Official Website	jeemain.nta.nic.in
+Educational Qualification	Passed Class 12 (or equivalent) with Physics, Chemistry and Mathematics as compulsory subjects. Candidates appearing in Class 12 in the current or preceding year are also eligible. No minimum percentage is required for JEE Main appearance itself (only for admission eligibility, generally 75% in Class 12, or top 20 percentile of respective board, relaxed for SC/ST to 65%).
+Age Limit	No upper age limit.
+Attempts Allowed	No lifetime cap on total attempts, but only within 3 consecutive years of passing Class 12; up to 2 sessions (Jan & Apr) per year may be taken.
+Important Dates (Typical Yearly Timeline)	Notification: Oct–Nov | Session 1 Registration: Nov–Dec | Session 1 Exam: last week Jan (over multiple shifts/dates) | Session 1 Result: early Feb | Session 2 Registration: Feb–Mar | Session 2 Exam: 1st–2nd week Apr | Session 2 Result & Final Cutoff: mid-to-late Apr | JEE Advanced registration opens: immediately after Session 2 result
+Exam Mode	Computer-Based Test (CBT) — fully online
+Exam Duration	3 hours (4 hours for PwD candidates with scribe)
+Number of Questions	75 (25 each from Physics, Chemistry, Mathematics) — all compulsory, no optional questions since 2024
+Question Types	20 MCQs + 5 Numerical Value Questions (NVQs) per subject
+Maximum Marks	300
+Marking Scheme	+4 for every correct answer
+Negative Marking	−1 for every incorrect MCQ; NO negative marking for incorrect Numerical Value Questions (unattempted = 0)
+Number of Sessions	2 per year (January and April) — best of the two NTA scores/percentiles is considered
+Languages	13 languages: English, Hindi, Assamese, Bengali, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu, Urdu
+1.2 Section-wise Marks Distribution
+Subject	MCQs	Numerical (NVQ)	Total Questions	Total Marks
+Physics	20	5	25	100
+Chemistry	20	5	25	100
+Mathematics	20	5	25	100
+Total	60	15	75	300
+1.3 Sectional Timing & Cutoff
+There is no fixed sectional time limit — candidates may allocate the full 3 hours across subjects as they choose. There is no sectional qualifying cutoff for JEE Main; only an overall category-wise percentile cutoff decides eligibility for JEE Advanced. However, a balanced subject-wise attempt (ideally 55–65 minutes per subject) is recommended by experts for optimum accuracy.
+1.4 Complete Exam Pattern
+•	Paper delivered as Computer Based Test (CBT) on desktop/laptop terminals at designated centres.
+•	Section A (MCQs): single correct answer out of 4 options; +4/−1.
+•	Section B (Numerical Value): answer entered as a numerical value (integer/decimal) using an on-screen numeric keypad; +4/0 (no negative marking).
+•	All 5 NVQs per subject are compulsory (optional-attempt format used in 2020–2023 was discontinued from 2024 onwards).
+•	No use of physical/virtual calculator, log tables, or slide rules is permitted; a virtual on-screen calculator/rough sheet is provided for basic arithmetic in certain years — candidates must verify latest NTA notice.
+•	Normalisation: Since the exam is held over multiple shifts/dates, NTA converts raw marks into a percentile score (NTA Score) separately for each shift to ensure fairness; All India Rank (AIR) is based on this percentile, not raw marks.
+•	Best of two sessions (Jan/Apr) is used for final AIR and JEE Advanced eligibility.
+1.5 Complete Subject-wise Syllabus
+Physics — Class 11
+•	Physical World & Measurement — units, dimensions, error analysis, significant figures
+•	Kinematics — motion in a straight line and plane, projectile motion, relative velocity
+•	Laws of Motion — Newton's laws, friction, circular motion dynamics
+•	Work, Energy and Power — work-energy theorem, conservation of energy, collisions
+•	Rotational Motion — centre of mass, moment of inertia, angular momentum, torque
+•	Gravitation — Kepler's laws, gravitational potential energy, escape velocity, satellites
+•	Properties of Solids and Liquids — elasticity, surface tension, viscosity, fluid mechanics, thermal expansion
+•	Thermodynamics — laws of thermodynamics, heat engines, Carnot cycle, entropy
+•	Kinetic Theory of Gases — gas laws, degrees of freedom, mean free path
+•	Oscillations and Waves — SHM, damped/forced oscillations, wave motion, Doppler effect, sound
+Physics — Class 12
+•	Electrostatics — Coulomb's law, electric field/potential, capacitors, Gauss's law
+•	Current Electricity — Ohm's law, Kirchhoff's laws, circuits, Wheatstone bridge, potentiometer
+•	Magnetic Effects of Current and Magnetism — Biot-Savart law, Ampere's law, magnetic materials
+•	Electromagnetic Induction & Alternating Currents — Faraday's law, Lenz's law, LCR circuits, transformers
+•	Electromagnetic Waves — spectrum, propagation, displacement current
+•	Optics — reflection, refraction, lens/mirror formulae, optical instruments, wave optics, interference, diffraction, polarisation
+•	Dual Nature of Matter and Radiation — photoelectric effect, de Broglie wavelength
+•	Atoms and Nuclei — Bohr model, radioactivity, nuclear binding energy, fission/fusion
+•	Electronic Devices — semiconductors, diodes, transistors, logic gates
+•	Communication Systems — modulation, bandwidth, propagation of signals
+•	Experimental Skills — vernier callipers, screw gauge, error handling, standard lab experiments
+Chemistry — Physical Chemistry
+•	Some Basic Concepts in Chemistry — mole concept, stoichiometry
+•	States of Matter — gaseous and liquid state, real/ideal gas equations
+•	Atomic Structure — quantum numbers, electronic configuration, orbitals
+•	Chemical Bonding and Molecular Structure — VSEPR, hybridisation, MOT
+•	Chemical Thermodynamics — enthalpy, entropy, Gibbs energy, Hess's law
+•	Solutions — colligative properties, Raoult's law
+•	Equilibrium — chemical and ionic equilibrium, pH, buffers, Ksp
+•	Redox Reactions and Electrochemistry — electrode potential, Nernst equation, conductance
+•	Chemical Kinetics — rate law, order/molecularity, Arrhenius equation
+•	Surface Chemistry & Solid State (as applicable per current syllabus)
+Chemistry — Inorganic Chemistry
+•	Classification of Elements and Periodicity in Properties
+•	General Principles and Processes of Isolation of Metals
+•	Hydrogen and its compounds
+•	s-Block Elements (Alkali and Alkaline Earth Metals)
+•	p-Block Elements (Groups 13–18)
+•	d- and f-Block Elements, Lanthanoids & Actinoids
+•	Coordination Compounds — nomenclature, bonding theories, isomerism
+•	Environmental Chemistry — pollution, ozone depletion, green chemistry
+Chemistry — Organic Chemistry
+•	Purification and Characterisation of Organic Compounds
+•	Basic Principles of Organic Chemistry — IUPAC nomenclature, isomerism, reaction mechanisms
+•	Hydrocarbons — alkanes, alkenes, alkynes, aromatic compounds
+•	Organic Compounds containing Halogens
+•	Organic Compounds containing Oxygen — alcohols, phenols, ethers, aldehydes, ketones, carboxylic acids
+•	Organic Compounds containing Nitrogen — amines, diazonium salts
+•	Polymers — classification, uses
+•	Biomolecules — carbohydrates, proteins, vitamins, nucleic acids
+•	Chemistry in Everyday Life — drugs, detergents, food chemistry
+•	Principles Related to Practical Chemistry — qualitative analysis, chromatography
+Mathematics
+•	Sets, Relations and Functions
+•	Complex Numbers and Quadratic Equations
+•	Matrices and Determinants
+•	Permutations and Combinations
+•	Binomial Theorem and its Applications
+•	Sequences and Series
+•	Limit, Continuity and Differentiability
+•	Integral Calculus — indefinite/definite integrals, area under curves
+•	Differential Equations
+•	Coordinate Geometry — straight lines, circles, conic sections (parabola, ellipse, hyperbola)
+•	Three-Dimensional Geometry
+•	Vector Algebra
+•	Statistics and Probability
+•	Trigonometry — identities, equations, inverse trigonometric functions
+•	Mathematical Reasoning
+1.6 Weightage of Important Chapters (Typical, based on past-year trend analysis)
+Subject	High-Weightage Chapters	Approx. Weightage
+Physics	Mechanics (Kinematics, Laws of Motion, Rotational Motion), Electrodynamics (Current Electricity, Magnetism, EMI), Modern Physics, Optics	55–60%
+Chemistry	Physical Chemistry (Equilibrium, Thermodynamics, Electrochemistry), Coordination Compounds, p-Block, Organic Reaction Mechanisms	55–60%
+Mathematics	Calculus (Limits, Continuity, Integral & Differential Calculus), Coordinate Geometry, Algebra (Complex Numbers, Matrices, P&C)	60–65%
+1.7 Difficulty Level
+Moderate to moderately-difficult. Physics and Mathematics are generally rated as lengthier/calculation-intensive; Chemistry (especially Inorganic and NCERT-based Physical/Organic factual recall) is considered the most scoring and time-efficient section. Overall difficulty is calibrated by NTA to be lower than JEE Advanced but higher than most state-level engineering exams.
+1.8 Previous Year Trend Analysis
+•	Chemistry has increasingly leaned on direct NCERT-based factual/numerical questions across recent sessions.
+•	Mathematics has shown a rising share of Coordinate Geometry & Calculus, with lengthier calculation-based NVQs.
+•	Physics numerical questions increasingly draw from Class 11 mechanics and Class 12 electrodynamics/modern physics together.
+•	Category-wise qualifying percentile for JEE Advanced eligibility has risen steadily over recent years across all categories, reflecting increasing competition and applicant numbers (see cutoff table below).
+1.9 Previous Year Cutoffs (JEE Advanced Qualifying Percentile)
+Category	2022	2023	2024	2025	2026
+General (UR)	88.41	90.77	93.23	93.10	93.41
+EWS	63.11	75.62	81.32	81.11	82.42
+OBC-NCL	67.01	73.61	79.67	79.44	80.92
+SC	43.08	51.98	60.09	60.14	63.92
+ST	26.77	37.23	47.90	46.72	52.02
+Note: Figures are NTA-declared qualifying percentiles (not raw marks), reflecting relative performance across all shifts/sessions. Approximately 2.45–2.5 lakh candidates qualify for JEE Advanced each year across all categories combined.
+1.10 Best Books
+Subject	Recommended Books
+Physics	NCERT Physics XI & XII; Concepts of Physics — H.C. Verma (Vol. 1 & 2); Understanding Physics series — D.C. Pandey; Problems in General Physics — I.E. Irodov (advanced)
+Chemistry	NCERT Chemistry XI & XII; Physical Chemistry — O.P. Tandon; Organic Chemistry — O.P. Tandon / M.S. Chouhan; Inorganic Chemistry — J.D. Lee (reference)
+Mathematics	NCERT Mathematics XI & XII; Algebra — S.K. Goyal; Coordinate Geometry — S.L. Loney; Calculus — I.A. Maron; Problems in Calculus of One Variable
+Practice	Previous 15 years' JEE Main & Advanced solved papers; NTA official mock tests
+1.11 Preparation Strategy
+•	Master NCERT thoroughly before moving to reference books — over 70% of Chemistry and a meaningful share of Physics questions are directly NCERT-rooted.
+•	Build a chapter-wise formula sheet for Physics and Mathematics for quick daily revision.
+•	Practice previous 10–15 years' papers (JEE Main + Advanced) topic-wise to identify recurring question patterns.
+•	Take one full-length mock test weekly under strict 3-hour timed conditions to build stamina and speed.
+•	Prioritise accuracy in NVQs since there is no negative marking, but do not guess in MCQs blindly given the −1 penalty.
+•	Maintain an error log to track and eliminate recurring mistakes.
+1.12 Recommended Study Plan (12-Month Structure, for Class 12 aspirants)
+Phase	Duration	Focus
+Foundation	Months 1–4	Complete NCERT + basic theory of all Class 11 & 12 chapters; concept-building exercises
+Application	Months 5–8	Chapter-wise problem solving from reference books; topic tests; start previous-year question practice
+Integration	Months 9–10	Full-syllabus revision; mixed topic tests; timed sectional tests
+Mock & Revision	Months 11–12	Full-length mock tests (2–3/week), error-log review, formula revision, light approach in final 10 days before exam
+ 
+Chapter 2: JEE Main Paper 2A (B.Arch)
+2.1 Exam Overview
+Exam Name	JEE Main Paper 2A
+Full Form	Joint Entrance Examination Main — Paper 2A (Bachelor of Architecture)
+Conducting Authority	National Testing Agency (NTA)
+Official Website	jeemain.nta.nic.in
+Educational Qualification	Passed Class 12 with Physics, Chemistry and Mathematics; minimum 50% aggregate marks in Class 12 (or equivalent) including Mathematics as a subject
+Important Dates	Conducted alongside JEE Main Session 1 (Jan) and Session 2 (Apr) cycle; typically one shift/day common for both Paper 2A and 2B
+Exam Mode	Hybrid — Mathematics & Aptitude sections: CBT (online); Drawing Test: pen-and-paper (offline)
+Exam Duration	3 hours
+Number of Questions	77 (Mathematics: 25 [20 MCQ + 5 NVQ]; Aptitude: 50 MCQ; Drawing: 2 questions)
+Maximum Marks	400
+Marking Scheme	+4 for every correct MCQ/NVQ in Maths & Aptitude; Drawing evaluated out of 100 marks on artistic/technical merit
+Negative Marking	−1 for incorrect MCQs in Mathematics & Aptitude; no negative marking for NVQs or Drawing
+2.2 Section-wise Marks Distribution
+Section	Subject	Questions	Marks
+Part I	Mathematics (20 MCQ + 5 NVQ)	25	100
+Part II	Aptitude Test	50	200
+Part III	Drawing Test	2	100
+Total	—	77	400
+2.3 Sectional Timing
+No individually enforced sectional time limits within the 3-hour window; however, candidates typically allocate approx. 45–60 minutes each to Mathematics and Aptitude and the remaining time to the two Drawing questions.
+2.4 Complete Exam Pattern
+•	Mathematics and Aptitude sections are computer-based (CBT); Drawing Test is conducted offline on a separate answer sheet using pencil/colour.
+•	Aptitude section tests awareness of national/international architects and buildings, visualising 3D objects from 2D drawings, and general mental ability.
+•	Drawing Test evaluates sketching of a given scene/object from memory, sense of proportion, perspective drawing, colour scheme, and object composition.
+2.5 Complete Syllabus
+Mathematics
+•	Same syllabus as JEE Main Paper 1 Mathematics (see Chapter 1, Section 1.5)
+Aptitude Test
+•	Awareness of persons, places, buildings, and materials
+•	Texture related to architecture and build environment
+•	Visualising three-dimensional objects from two-dimensional drawings
+•	Visualising different sides of 3D objects
+•	Analytical reasoning and mental ability (visual, numerical and verbal)
+Drawing Test
+•	Sketching of a given scene or activity from memory (urban scenes, landscapes, nature)
+•	Transformation of 2D to 3D shapes and vice-versa
+•	Development of surfaces and volumes of geometrical/abstract shapes and objects
+•	Generation of plan, elevation, and 3D views of objects
+•	Creation of 2D and 3D union, intersection of rotated/scaled geometrical shapes
+•	Colour texture, harmony and contrast
+2.6 Weightage & Difficulty
+Mathematics section is considered as difficult as JEE Main Paper 1 Maths. Aptitude section rewards general awareness and spatial visualisation; is high-scoring with practice. Drawing Test difficulty is subjective/skill-based and rewards regular sketching practice and originality.
+2.7 Previous Year Trend Analysis
+•	Drawing prompts have consistently focused on everyday urban/rural scenes, monuments, and nature-based compositions.
+•	Aptitude questions increasingly test 3D visualization and figure-counting/mental-rotation type questions.
+2.8 Best Books
+•	A Complete Self-Study Guide for B.Arch – P.K. Mishra
+•	Steps to Architecture — Corner Stone / GKP publications
+•	NATA & B.Arch Drawing practice workbooks
+•	NCERT Mathematics XI & XII
+2.9 Preparation Strategy & Study Plan
+•	Dedicate daily practice (30–45 min) purely to freehand sketching and perspective drawing.
+•	Solve Mathematics using the same plan as JEE Main Paper 1.
+•	Regularly study iconic Indian and global architectural structures for Aptitude awareness questions.
+•	Practice previous 8–10 years' Paper 2A question papers under timed conditions.
+2.10 Previous Year Cutoff Trend (NIT/SPA B.Arch, General Category, Indicative)
+B.Arch admission cutoffs are institute- and course-specific (declared via JoSAA/CSAB counselling) and are expressed as percentile/rank rather than a single national qualifying score. Competition for NITs' B.Arch programmes (limited to ~7 NITs) is intense, with top-NIT closing ranks typically within the top 2,000–3,000 among Paper 2A candidates in recent cycles.
+ 
+Chapter 3: JEE Main Paper 2B (B.Planning)
+3.1 Exam Overview
+Exam Name	JEE Main Paper 2B
+Full Form	Joint Entrance Examination Main — Paper 2B (Bachelor of Planning)
+Conducting Authority	National Testing Agency (NTA)
+Official Website	jeemain.nta.nic.in
+Educational Qualification	Passed Class 12 with Mathematics as a subject; minimum 50% aggregate marks (or equivalent)
+Exam Mode	Fully Computer-Based Test (CBT) — including the Planning-based section
+Exam Duration	3 hours
+Number of Questions	100 (Mathematics: 25 [20 MCQ + 5 NVQ]; Aptitude: 50 MCQ; Planning-based: 25 MCQ)
+Maximum Marks	400
+Marking Scheme	+4 for every correct answer across all three parts
+Negative Marking	−1 for incorrect MCQs; no negative marking on NVQs
+3.2 Section-wise Marks Distribution
+Section	Subject	Questions	Marks
+Part I	Mathematics (20 MCQ + 5 NVQ)	25	100
+Part II	Aptitude Test	50	200
+Part III	Planning-Based Questions	25	100
+Total	—	100	400
+3.3 Complete Exam Pattern
+•	Entire paper — including the planning section — is delivered online (CBT); unlike Paper 2A there is no offline/drawing component.
+•	Planning-based section tests general awareness of urban planning, infrastructure, government schemes, and social/environmental planning issues.
+3.4 Complete Syllabus
+Mathematics
+•	Same as JEE Main Paper 1 Mathematics (see Chapter 1, Section 1.5)
+Aptitude Test
+•	Awareness of persons, places, buildings, materials
+•	Visualising 3D objects from 2D drawings and vice-versa
+•	Analytical reasoning, mental ability (visual, numerical, verbal)
+Planning-Based Questions
+•	General knowledge of national/international current affairs relevant to urban development
+•	Social sciences — geography, economics, sociology relevant to planning
+•	Thinking into structural and geometrical patterns, map-reading
+•	Knowledge of infrastructure — transportation, housing, sanitation, environment
+•	Government policies, schemes and issues related to urban and regional planning
+•	Graphs, charts, and data interpretation relevant to planning contexts
+3.5 Difficulty Level & Trend Analysis
+Mathematics carries similar difficulty to Paper 1. The Planning section is largely GK/awareness-based and rewards current-affairs reading, particularly urban policy, sustainability, and infrastructure news. Aptitude overlaps significantly with Paper 2A.
+3.6 Best Books & Preparation Strategy
+•	NCERT Mathematics XI & XII
+•	Newspaper/current-affairs reading focused on urban development, Smart Cities Mission, housing schemes
+•	General Knowledge compendiums with a focus on geography and urban infrastructure
+•	Previous years' Paper 2B question papers for the Planning section pattern
+3.7 Study Plan
+Mathematics preparation should mirror the Paper 1 plan (see Chapter 1.12). Dedicate the final 2 months primarily to daily current-affairs/GK reading and solving planning-based mock questions, alongside continued Aptitude practice shared with Paper 2A.
+3.8 Previous Year Cutoff Trend
+B.Planning is offered at a very limited number of institutes (a few NITs and the Schools of Planning and Architecture — SPA Delhi, Bhopal, Vijayawada), making seats extremely limited (well under 500 nationally) and cutoffs highly competitive relative to the small applicant pool for this paper.
+ 
+Chapter 4: JEE Advanced
+4.1 Exam Overview
+Exam Name	Joint Entrance Examination – Advanced (JEE Advanced)
+Full Form	Joint Entrance Examination Advanced
+Conducting Authority	One of the seven zonal IITs on rotation, under the Joint Admission Board (JAB) — 2026 edition conducted by IIT Roorkee
+Official Website	jeeadv.ac.in
+Educational Qualification	Must rank within the top 2,50,000 candidates (across all categories) in JEE Main Paper 1; passed Class 12 in the current or preceding year (with limited relaxations); maximum of 2 attempts in 2 consecutive years
+Important Dates (Typical Timeline)	JEE Advanced registration opens: within days of JEE Main Session 2 result (late Apr) | Registration closes: early May | Exam: mid-May | Provisional answer key: ~1 week after exam | Result: early June | JoSAA counselling: June–July (multiple rounds)
+Exam Mode	Computer-Based Test (CBT), fully online
+Exam Duration	2 papers of 3 hours each, held on the same day (Paper 1: forenoon; Paper 2: afternoon) — total 6 hours
+Number of Questions	Varies year to year (typically 51 per paper; ~102 total) — exact pattern is not fixed and changes annually
+Maximum Marks	Varies yearly (typically 360 total, ~180 per paper) — official pattern released only via the exam's own instructions on exam day
+Marking Scheme	Mixed — full marks for fully correct answers; partial marks in certain multi-correct/multiple-answer questions; varies by question type each year
+Negative Marking	Present in most MCQ-type questions (typically −1 or −2 depending on question type); NO negative marking on Numerical Answer Type questions
+4.2 Section-wise Structure (Representative Pattern — Varies Yearly)
+Paper	Subjects Covered	Approx. Duration	Approx. Max Marks
+Paper 1	Physics, Chemistry, Mathematics (mixed question types: single-correct, multi-correct, numerical)	3 hours	~180
+Paper 2	Physics, Chemistry, Mathematics (different question formats — comprehension-based, matrix-match, numerical)	3 hours	~180
+Note: JEE Advanced deliberately varies its exact question count, marks-per-question, and negative-marking rules every year to prevent pattern-based rote preparation. Candidates must rely on the official mock test and instructions released a few days before the exam for the exact year's scheme.
+4.3 Complete Exam Pattern (General Structure)
+•	Two compulsory papers on the same day; both must be attempted for the result to be considered.
+•	Question types across recent years have included: Single Correct MCQs, Multiple Correct MCQs (partial marking), Numerical Answer Type (decimal/integer, no negative marking), Matrix-Match/List-Match, and Paragraph/Comprehension-based sets.
+•	Rank list (Common Rank List, CRL) is based on aggregate marks in both papers combined; subject-wise and category-wise ranks are also declared.
+•	A minimum aggregate marks criterion AND a minimum per-subject marks criterion (each generally ~5–10% of subject maximum) must both be cleared to be included in the merit list.
+•	Questions are available in English and Hindi.
+4.4 Complete Subject-wise Syllabus
+The JEE Advanced syllabus largely mirrors JEE Main but is tested at a significantly higher conceptual depth, with heavier emphasis on multi-concept application, calculation-intensive problems, and topics requiring rigorous derivation.
+Physics (Class 11 + 12, same broad chapters as JEE Main with deeper treatment)
+•	General Physics — units, dimensions, experimental error analysis
+•	Mechanics — kinematics, Newton's laws, work-energy-power, centre of mass, rotational dynamics, gravitation, elasticity, hydrostatics/hydrodynamics
+•	Thermal Physics — thermal expansion, calorimetry, heat transfer, kinetic theory, thermodynamics laws
+•	Waves & Oscillations — SHM, string/sound waves, Doppler effect
+•	Electricity & Magnetism — electrostatics, current electricity, magnetic effects, EMI, AC circuits
+•	Optics — geometrical optics, wave optics, optical instruments
+•	Modern Physics — photoelectric effect, atomic structure, radioactivity, nuclear physics
+Chemistry
+•	Physical Chemistry — mole concept, gaseous/liquid states, thermodynamics, chemical/ionic equilibrium, electrochemistry, chemical kinetics, solid state, surface chemistry
+•	Inorganic Chemistry — periodic table, chemical bonding, hydrogen, s/p/d/f-block elements, coordination compounds, extractive metallurgy, qualitative analysis
+•	Organic Chemistry — IUPAC nomenclature, isomerism, reaction mechanisms, hydrocarbons, haloalkanes/haloarenes, alcohols/phenols/ethers, aldehydes/ketones, carboxylic acids, amines, biomolecules, polymers, practical/qualitative organic analysis
+Mathematics
+•	Algebra — quadratic equations, sequences & series, permutations & combinations, binomial theorem, complex numbers, matrices & determinants, probability
+•	Trigonometry — identities, equations, inverse functions, properties of triangles
+•	Analytical/Coordinate Geometry — straight lines, circles, conic sections, 3D geometry
+•	Differential Calculus — functions, limits, continuity, differentiability, application of derivatives
+•	Integral Calculus — definite/indefinite integration, area under curves, differential equations
+•	Vectors
+4.5 Weightage of Important Chapters
+Subject	Consistently High-Weightage Topics
+Physics	Mechanics (Rotational Motion, Centre of Mass), Electrodynamics (Current Electricity, EMI, Magnetism), Modern Physics, Heat & Thermodynamics
+Chemistry	Physical Chemistry (Electrochemistry, Chemical Kinetics, Equilibrium), Organic Reaction Mechanisms & GOC, Coordination Chemistry, p-Block
+Mathematics	Calculus (Definite Integrals, Application of Derivatives), Coordinate Geometry (Circles, Conic Sections), Algebra (Complex Numbers, P&C, Probability)
+4.6 Difficulty Level
+Very high — widely regarded as one of the toughest undergraduate entrance examinations in the world. Questions demand multi-step reasoning, combine concepts across chapters, and are calculation-intensive under significant time pressure.
+4.7 Previous Year Trend Analysis
+•	Exam pattern (number of questions, marks per question, negative marking rules) has changed almost every year over the last decade — flexibility in question format is now a core hallmark of JEE Advanced.
+•	2025 saw a notable pattern change introduced by IIT Kanpur; each conducting IIT tends to bring its own stylistic tweaks.
+•	2026 (IIT Roorkee): 1,79,694 candidates appeared; 56,880 qualified — a qualifying rate of roughly 31–32%.
+•	Physics numericals and multi-concept Mechanics/Electrodynamics problems remain persistently high-weightage across years.
+4.8 Previous Year Cutoffs & Results Snapshot
+Year	Conducting IIT	Appeared	Qualified (Approx.)	Total IIT Seats (Approx.)
+2023	IIT Guwahati	1,89,744	43,773	17,385
+2024	IIT Madras	1,80,200	48,248	17,760
+2025	IIT Kanpur	1,80,376	54,378	17,900
+2026	IIT Roorkee	1,79,694	56,880	18,160
+JoSAA counselling for 2026 ran from June 2 to July 24 across five rounds, with the final round of seat allotment announced on July 16, 2026.
+4.9 Best Books
